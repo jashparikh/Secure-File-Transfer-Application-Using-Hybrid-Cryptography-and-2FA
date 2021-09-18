@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-filetransfertyit-dev-170907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::107865653296:role/amplify-filetransfertyit-dev-170907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::107865653296:role/amplify-filetransfertyit-dev-170907-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-filetransfertyit-dev-170907-deployment",
+      "UnauthRoleName": "amplify-filetransfertyit-dev-170907-unauthRole",
+      "StackName": "amplify-filetransfertyit-dev-170907",
+      "StackId": "arn:aws:cloudformation:ap-south-1:107865653296:stack/amplify-filetransfertyit-dev-170907/75e6a690-4e81-11eb-a5c9-0214e2105214",
+      "AmplifyAppId": "dfym50uiu6dhv"
+    }
+  },
+  "auth": {
+    "filetransfertyitf4c8deaf": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "AppClientSecret": "11jn8276ffv25ghqg478lcm613q60ndfiddmnpimflnlrn1k825u",
+        "UserPoolId": "ap-south-1_bmsTjmCc2",
+        "AppClientIDWeb": "f6tk4b3sb86hdust4jrk8oria",
+        "AppClientID": "38ukes2fntdm3i6mc0jud0dekt",
+        "IdentityPoolId": "ap-south-1:a93ed551-68bb-4b8d-83c1-6da86ad0ef78",
+        "IdentityPoolName": "filetransfertyitf4c8deaf_identitypool_f4c8deaf__dev",
+        "UserPoolName": "filetransfertyitf4c8deaf_userpool_f4c8deaf"
+      },
+      "lastPushTimeStamp": "2021-04-06T14:18:32.721Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-filetransfertyit-dev-170907-deployment/amplify-cfn-templates/auth/filetransfertyitf4c8deaf-cloudformation-template.yml",
+        "logicalId": "authfiletransfertyitf4c8deaf"
+      }
+    }
+  },
+  "storage": {
+    "s3": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-filetransfertyit-dev-170907-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storages3"
+      },
+      "lastPushTimeStamp": "2021-04-06T14:18:32.742Z",
+      "output": {
+        "BucketName": "s3bucket170907-dev",
+        "Region": "ap-south-1"
+      },
+      "lastPushDirHash": "rDkZjI2WNBwWeAbf9bxosTlbhZ4="
+    }
+  },
+  "api": {}
+}

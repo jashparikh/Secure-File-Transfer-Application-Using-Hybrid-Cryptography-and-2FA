@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/selector_send"
+        android:title="Send"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/receive"
+        android:icon="@drawable/selector_receive"
+        android:title="Receive"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/selector_settings"
+        android:title="Settings"
+        app:showAsAction="always" />
+
+</menu>

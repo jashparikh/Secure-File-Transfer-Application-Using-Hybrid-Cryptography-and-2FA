@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-filetransfertyit-dev-170907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::107865653296:role/amplify-filetransfertyit-dev-170907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::107865653296:role/amplify-filetransfertyit-dev-170907-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-filetransfertyit-dev-170907-deployment",
+      "UnauthRoleName": "amplify-filetransfertyit-dev-170907-unauthRole",
+      "StackName": "amplify-filetransfertyit-dev-170907",
+      "StackId": "arn:aws:cloudformation:ap-south-1:107865653296:stack/amplify-filetransfertyit-dev-170907/75e6a690-4e81-11eb-a5c9-0214e2105214",
+      "AmplifyAppId": "dfym50uiu6dhv"
+    },
+    "categories": {
+      "auth": {
+        "filetransfertyitf4c8deaf": {}
+      }
+    }
+  }
+}

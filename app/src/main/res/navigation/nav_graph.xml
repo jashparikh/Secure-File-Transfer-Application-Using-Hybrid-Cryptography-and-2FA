@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/send">
+
+    <fragment
+        android:id="@+id/send"
+        android:name="com.example.filetransfer.fragments.SendFragment"
+        android:label="fragment_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/receive"
+        android:name="com.example.filetransfer.fragments.ReceiveFragment"
+        android:label="fragment_recieve"
+        tools:layout="@layout/fragment_recieve" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.example.filetransfer.fragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

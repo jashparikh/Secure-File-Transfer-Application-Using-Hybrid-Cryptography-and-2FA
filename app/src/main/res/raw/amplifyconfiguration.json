@@ -1,0 +1,64 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "UserAgent": "aws-amplify-cli/0.1.0",
+                "Version": "0.1.0",
+                "IdentityManager": {
+                    "Default": {}
+                },
+                "CredentialsProvider": {
+                    "CognitoIdentity": {
+                        "Default": {
+                            "PoolId": "ap-south-1:a93ed551-68bb-4b8d-83c1-6da86ad0ef78",
+                            "Region": "ap-south-1"
+                        }
+                    }
+                },
+                "CognitoUserPool": {
+                    "Default": {
+                        "PoolId": "ap-south-1_bmsTjmCc2",
+                        "AppClientId": "38ukes2fntdm3i6mc0jud0dekt",
+                        "Region": "ap-south-1",
+                        "AppClientSecret": "11jn8276ffv25ghqg478lcm613q60ndfiddmnpimflnlrn1k825u"
+                    }
+                },
+                "Auth": {
+                    "Default": {
+                        "authenticationFlowType": "USER_SRP_AUTH"
+                    }
+                },
+                "S3TransferUtility": {
+                    "Default": {
+                        "Bucket": "s3bucket170907-dev",
+                        "Region": "ap-south-1"
+                    }
+                },
+                "awsS3StoragePlugin": {
+                    "bucket": "s3bucket170907-dev",
+                    "region": "ap-south-1",
+                    "defaultAccessLevel": "guest"
+                },
+                "awsAPIPlugin": {
+                    "database": {
+                        "endpointType": "GraphQL",
+                        "endpoint": "https://hwdycgufavee5dfd22a3yvl5hq.appsync-api.ap-south-1.amazonaws.com/graphql",
+                        "region": "ap-south-1",
+                        "authorizationType": "AMAZON_COGNITO_USER_POOLS"
+                    }
+                }
+            }
+        }
+    },
+    "storage": {
+        "plugins": {
+            "awsS3StoragePlugin": {
+                "bucket": "s3bucket170907-dev",
+                "region": "ap-south-1",
+                "defaultAccessLevel": "guest"
+            }
+        }
+    }
+}
